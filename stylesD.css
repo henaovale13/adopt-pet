@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    background-color: #5e5db8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.user-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.pets-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pets-gallery img {
+    width: calc(33.333% - 10px);
+    height: auto;
+    border-radius: 10px;
+}
+
+.donation {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    background-color: #5e5db8;
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.donation h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.donation button {
+    background-color: #f28b30;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.donation button:hover {
+    background-color: #e07c1c;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+}

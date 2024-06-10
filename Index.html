@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación de Mascotas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #5a4ca7;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            header img {
+                height: 50px;
+            }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+                nav a:hover {
+                    text-decoration: underline;
+                }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #ff6f61;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .section-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .section-content img {
+                width: 100%;
+                max-width: 500px;
+                border-radius: 5px;
+            }
+
+            .section-content div {
+                width: 100%;
+                max-width: 500px;
+                font-size: 18px;
+                background-color: #5a4ca7;
+                color: white;
+                padding: 20px;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+
+            .section-content.quienes-somos {
+                background-color: white;
+                color: black;
+                text-align: left;
+            }
+
+                .section-content.quienes-somos div {
+                    background-color: white;
+                    color: black;
+                    padding: 20px;
+                }
+
+            .section-content.vision {
+                background-color: #5a4ca7;
+                color: white;
+                text-align: left;
+            }
+
+                .section-content.vision .content {
+                    flex: 1;
+                    padding: 20px;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                }
+
+                .section-content.vision img {
+                    width: 100%;
+                    max-width: 500px;
+                    border-radius: 5px;
+                }
+
+            .section-content.mision {
+                background-color: white;
+                color: black;
+                text-align: left;
+            }
+
+                .section-content.mision div {
+                    background-color: white;
+                    color: black;
+                    padding: 20px;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="file:///C:/Users/USUARIO/Desktop/Patitas/images/logo.png" alt="Logo">
+        <nav>
+            <a href="Index.html">Inicio</a>
+            <a href="mascotas.html">Mascotas</a>
+            <a href="donar.html">Donar</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <a href="login.html">
+        <img src="file:///C:/Users/USUARIO/Desktop/Patitas/images/user-icon.png" alt="User Icon">
+        </a>
+    </header>
+
+    <div class="container">
+        <section id="inicio">
+            <div class="banner">
+                <img src="file:///C:/Users/USUARIO/Desktop/Patitas/images/banner.jpg" alt="Banner">
+            </div>
+            <div class="section-content quienes-somos">
+                <img src="https://fundacionanimallibre.com/wp-content/uploads/2022/08/Me00002.jpg" alt="¿Quiénes somos?">
+                <div>
+                    <h2 class="section-title">¿Quiénes somos?</h2>
+                    <p>Somos una fundación que ayuda a construirles un hogar para aquellos peluditos que no tienen quien les reciba su exceso de amor.</p>
+                </div>
+            </div>
+            <div class="section-content vision">
+                <div class="content">
+                    <h2 class="section-title">Visión</h2>
+                    <p>Para el 2026 ser la fundación referente a nivel nacional al momento de adoptar.</p>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%81%D0%BA%D0%B8%D0%B5_%D0%B1%D1%83%D0%BB%D1%8C%D0%B4%D0%BE%D0%B3%D0%B8_2013-09-02_11-36.JPG/800px-%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D0%BA%D0%B8%D0%B5_%D0%B1%D1%83%D0%BB%D1%8C%D0%B4%D0%BE%D0%B3%D0%B8_2013-09-02_11-36.JPG" alt="Visión">
+            </div>
+            <div class="section-content mision">
+                <img src="https://infomascota.com/wp-content/uploads/2021/10/perros-400x375.jpg" alt="Misión">
+                <div>
+                    <h2 class="section-title">Misión</h2>
+                    <p>Rescatar, rehabilitar y dar segundas oportunidades a esos ángeles peludos que llegan a nosotras sin importar edad, raza, color o condición.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fundación de Mascotas. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

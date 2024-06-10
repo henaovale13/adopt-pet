@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    background-color: #5e5db8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.user-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.adopt-section {
+    background-color: #5e5db8;
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.adopt-section h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.pets-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pet img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.pet span {
+    background-color: #f28b30;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.publish-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.publish-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.publish-form {
+    background-color: #5e5db8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.publish-form h3 {
+    margin-bottom: 20px;
+}
+
+.publish-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.publish-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #5e5db8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload img {
+    width: 20px;
+    height: 20px;
+}
+
+.publish-form button {
+    background-color: #f28b30;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.publish-form button:hover {
+    background-color: #e07c1c;
+}
